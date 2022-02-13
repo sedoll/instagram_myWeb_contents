@@ -16,16 +16,16 @@ let bccClick = 0
 console.dir(BODY)
 
 function backChangeColor() {
-    if (bccClick === 0) { // 어두운 테마
-        BODY.style.backgroundColor = COLOR4
-        BODY.style.color = COLOR1
-        BTN.innerText = COLOR_CH + BLACK_THE
-        bccClick = 1
-
-    } else { // 밝은 테마
+    if (bccClick === 0) { // 밝은 테마
         BODY.style.backgroundColor = COLOR1
         BODY.style.color = COLOR2
         BTN.innerText = COLOR_CH + WHITE_THE
+        bccClick = 1
+
+    } else { // 어두운 테마
+        BODY.style.backgroundColor = COLOR4
+        BODY.style.color = COLOR1
+        BTN.innerText = COLOR_CH + BLACK_THE
         bccClick = 0
     }
 }

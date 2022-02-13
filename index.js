@@ -1,6 +1,7 @@
 const BODY = document.querySelector("body")
 const BTN = document.querySelector("#bgBtn")
-const HEADER = document.querySelector("header")
+const MoveSite = document.querySelector(".move_site")
+
 const COLOR_CH = "테마 : "
 const BLACK_THE = "어두운"
 const WHITE_THE = "밝은"
@@ -8,6 +9,7 @@ const COLOR1 = "white"
 const COLOR2 = "black"
 const COLOR3 = "blue"
 const COLOR4 = "#333333"
+
 let btnClick = 0
 let bccClick = 0
 
@@ -18,7 +20,6 @@ function backChangeColor() {
         BODY.style.backgroundColor = COLOR4
         BODY.style.color = COLOR1
         BTN.innerText = COLOR_CH + BLACK_THE
-        HEADER.style.border = "solid 1px palevioletred"
         bccClick = 1
 
     } else { // 밝은 테마

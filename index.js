@@ -46,11 +46,13 @@ function web(name) {
         location.href = "https://blog.naver.com/tmvmffpsej"
     } else if(name === 5){ //깃 허브
         location.href = "https://github.com/SEDO11"
-    } else {
+    } else if(name === 6){
         let select = confirm("이 페이지는 pc 에 최적화 되있습니다. 들어가시겠습니까?")
         if(select){
             location.href = "https://sedo11.github.io/knu_Portfolio/index.html"
         }
+    } else {
+        location.href = "https://noonnu.cc/font_page/788"
     }
 }
 

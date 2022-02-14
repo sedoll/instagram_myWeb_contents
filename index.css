@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #user_name {
     font-size: 20px;
 }
@@ -14,6 +21,7 @@
 }
 
 body{
+    font-family: 'ACCchildrenheartOTF-Regular';
     text-align: center;
     background-color: #333333;
     color: white;

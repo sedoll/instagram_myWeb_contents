@@ -36,22 +36,22 @@ function over() {
 }
 
 function web(name) {
-    if (name === 1) { //인스타
+    if (name === 1) { // 인스타
         location.href = "https://www.instagram.com/se_do11/?hl=ko"
-    } else if(name === 2){ //페북
+    } else if(name === 2){ // 페북
         location.href = "https://www.facebook.com/profile.php?id=100005061229348"
-    } else if(name === 3){ //유튜브
+    } else if(name === 3){ // 유튜브
         location.href = "https://www.youtube.com/channel/UCgJ8iR8g3_7Cx-kqZZAcRrQ"
-    } else if(name === 4){ //네이버 블로그
+    } else if(name === 4){ // 네이버 블로그
         location.href = "https://blog.naver.com/tmvmffpsej"
-    } else if(name === 5){ //깃 허브
+    } else if(name === 5){ // 깃 허브
         location.href = "https://github.com/SEDO11"
-    } else if(name === 6){
+    } else if(name === 6){ // 포트폴리오
         let select = confirm("이 페이지는 pc 에 최적화 되있습니다. 들어가시겠습니까?")
         if(select){
             location.href = "https://sedo11.github.io/knu_Portfolio/index.html"
         }
-    } else {
+    } else { // 눈누
         location.href = "https://noonnu.cc/font_page/788"
     }
 }

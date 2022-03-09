@@ -51,6 +51,8 @@ function web(name) {
         if(select){
             location.href = "https://sedo11.github.io/knu_Portfolio/index.html"
         }
+    } else if(name === 7){ // 제작 웹 깃 허브
+        location.href = "https://github.com/SEDO11/instagram_myWeb_contents/tree/main"
     } else { // 눈누
         location.href = "https://noonnu.cc/font_page/788"
     }

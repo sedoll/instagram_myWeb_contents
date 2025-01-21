@@ -3,62 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
-    <link rel="stylesheet" href="index.css">
-    <title>오세훈 바로가기 사이트</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>오세훈 바로가기</title>
 </head>
 <body>
     <header>
-        <strong>테마 변경</strong>
-        <button id="bgBtn">테마: 어두운</button>
+        <strong>테마</strong>
+        <button id="bgBtn" onclick="backChangeColor();">어두운</button>
     </header>
-
-    <section>
-
-        <div class="move_site">
+    <section class="profile-section">
+        <div class="profile">
+            <img src="https://avatars.githubusercontent.com/u/83574029?v=4">
+        </div>
+        <div class="intro">
             <strong id="user_name">오세훈</strong>
-            <strong>, 내가 만든 바로가기 웹페이지</strong>
-        </div>
-
-        <div class="move_site" onclick=web(1)>
-            <img src="pic/insta.png" alt="">
-            <span>Instagram</span>
-        </div>
-
-        <div class="move_site" onclick=web(2)>
-            <img src="pic/facebook.png" alt="">
-            <span>Facebook</span>
-        </div>
-
-        <div class="move_site" onclick=web(3)>
-            <img src="pic/youtube.png" alt="">
-            <span>Youtube</span>
-        </div>
-
-        <div class="move_site" onclick=web(4)>
-            <img src="pic/in.png" alt="">
-            <span>Naver Blog</span>
-        </div>
-
-        <div class="move_site" onclick=web(5)>
-            <img src="pic/code.png" alt="">
-            <span>Git Hub</span>
-        </div>
-
-        <div class="move_site" onclick=web(6)>
-            <img src="pic/pot.png" alt="">
-            <span>WEB PotFolio</span>
-        </div>
-
-        <div class="move_site" onclick=web(7)>
-            <img src="pic/code.png" alt="">
-            <span>해당 웹 제작 Git Hub</span>
-        </div>
-
-        <div class="move_site" onclick=web(8)>
-            <span>적용한 웹 폰트 바로가기</span>
+            <p>1998. 04. 22 </p>
         </div>
     </section>
+    <section class="links-section">
+    </section>
+    <section class="description">
+        <h2>Description</h2>
+        <p>이 웹페이지는 다양한 소셜 미디어와 포트폴리오를 빠르게 이동할 수 있도록 제작되었습니다.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 오세훈. All rights reserved.</p>
+        <p>E-mail <a href="mailto:do11anm@naver.com">do11anm@naver.com</a></p>
+        <p>페이지 소스 <a href="https://github.com/SEDO11/instagram_myWeb_contents/tree/main">Repository</a></p>
+        <p>적용 폰트 <a href="https://noonnu.cc/font_page/788" target="_blank">ACC 어린이 마음고운체</a></p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-<script src="index.js"></script>
 </html>
